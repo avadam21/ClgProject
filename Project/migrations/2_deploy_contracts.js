@@ -1,6 +1,6 @@
-const HashFunction = artifacts.require("./build/contracts/HashFunction.json");
+const hf = artifacts.require("hf");
 
 
 module.exports = function(deployer) {
-  deployer.deploy(HashFunction);
+  deployer.deploy(hf);
 };
